@@ -1,0 +1,8 @@
+{
+  "file_format_version": "1.0.1",
+  "ICD": {
+    "library_path": "@LIB_PATH@",
+    "api_version": "1.4.328"
+  }
+}
+

@@ -1,0 +1,20 @@
+#!/bin/sh
+# Persistent environment for upgraded Vulkan/Mesa stack
+export LD_LIBRARY_PATH="@STACK_DIR@/lib:/usr/lib"
+export VK_ICD_FILENAMES="@STACK_DIR@/icd/broadcom_icd.cortex-a76.json"
+
+# Quiet down xkb compose warnings on ES console
+export XCOMPOSEFILE=/dev/null
+unset XMODIFIERS
+
+# Restart EmulationStation once at boot to pick env up
+LOCK=/var/run/es-vulkan-restart.lock
+if [ ! -f "$LOCK" ]; then
+  touch "$LOCK"
+  if command -v /etc/init.d/S31emulationstation >/dev/null 2>&1; then
+    ( sleep 2; /etc/init.d/S31emulationstation restart ) &
+  else
+    ( sleep 2; killall emulationstation 2>/dev/null; sleep 2; /usr/bin/emulationstation & ) &
+  fi
+fi
+

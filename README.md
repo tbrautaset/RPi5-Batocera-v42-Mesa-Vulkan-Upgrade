@@ -13,7 +13,13 @@ It replaces Batocera’s built-in Vulkan loader and V3DV Mesa driver with newer,
 Bright/dark tint issue on RPi5 fixed using this Mesa/Vulkan stack.  
 (Click to play)
 
-<video src="https://raw.githubusercontent.com/tbrautaset/rpi-batocera-mesa-vulkan/main/MKDD-Tint-Fix-RPi5.webm" width="720" autoplay loop muted playsinline></video>
+<video width="720" controls muted playsinline>
+  <source src="https://raw.githubusercontent.com/tbrautaset/rpi-batocera-mesa-vulkan/main/MKDD-Tint-Fix-RPi5.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
+[▶️ Open video in a new tab](https://raw.githubusercontent.com/tbrautaset/rpi-batocera-mesa-vulkan/main/MKDD-Tint-Fix-RPi5.webm)
+
 
 ---
 

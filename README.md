@@ -15,6 +15,11 @@ Bright/dark tint issue on RPi5 fixed using this Mesa/Vulkan stack.
 
 [![Watch the video](https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/gamecube_12/SI_GCN_MarioKartDoubleDash_image1600w.jpg)](https://raw.githubusercontent.com/tbrautaset/rpi-batocera-mesa-vulkan/main/MKDD-Tint-Fix-RPi5.webm)
 
+
+https://github.com/user-attachments/assets/${UUID} # it works
+
+https://github.com/tbrautaset/rpi-batocera-mesa-vulkan/raw/3b8162b036761b4f5943b4c72adb9c4ed1146bcd/MKDD-Tint-Fix-RPi5.webm
+
 ---
 
 ## 🔧 Included Components

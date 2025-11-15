@@ -13,10 +13,7 @@ It replaces Batocera’s built-in Vulkan loader and V3DV Mesa driver with newer,
 Bright/dark tint issue on RPi5 fixed using this Mesa/Vulkan stack.  
 (Click to play)
 
-[![Watch the video](https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/gamecube_12/SI_GCN_MarioKartDoubleDash_image1600w.jpg)](https://raw.githubusercontent.com/tbrautaset/rpi-batocera-mesa-vulkan/main/MKDD-Tint-Fix-RPi5.webm)
-
-
-https://github.com/user-attachments/assets/${UUID}
+[![Watch the video](https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/gamecube_12/SI_GCN_MarioKartDoubleDash_image1600w.jpg)](https://release-assets.githubusercontent.com/github-production-release-asset/1084304914/24dd3c3d-ebc9-4de0-9c07-cdcb88920ce8)
 
 ---
 
